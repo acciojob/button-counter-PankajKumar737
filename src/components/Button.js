@@ -6,7 +6,7 @@ function Button(){
     const [count, setCount] = useState(0);
     return(
         <div>
-            <p>Button clicked {count} time</p>
+            <h5>Button clicked {count} times</h5>
             <button onClick={() => setCount(count+1)}>click me</button>
         </div>   
     );
